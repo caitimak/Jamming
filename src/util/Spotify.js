@@ -1,6 +1,7 @@
 let accessToken;
 const clientID = '448cf5db28d549d9b0d8fd3910a04a94';
-const redirectURI = "https://playlister.surge.sh";
+const redirectURI = "http://localhost:3000/";
+// const redirectURI = "https://playlister.surge.sh";
 
 const Spotify = {
   getAccessToken() {
